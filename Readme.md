@@ -1,9 +1,5 @@
-Тестовое задание для QA automation от Slotegrator.
-
 Расположение тестов:
-
 •	test.java.api – тесты для API
-
 •	test.java.ui – тесты для UI
 
 •   для удобства создан отдельный тестовый класс для запуска из под junit cucumber-сценария (src/test/java/ui/OpenPlayersListTest.java)
@@ -23,7 +19,7 @@
 При проектировании тестов был использован паттерн PageObjectModel
 
 Комментарии: 
-Я бы добавил Allure reports, а также выполнил бы UI часть используя Selenide, но так как в задании не было упомянуто использование этих библиотек, я решил не применять их.
+Selenide намеренно не использован для проверки UI части.
 
 Тестовое задание выполнил – Marklen Dzhanibekov
 email: marklen.dzhanibekov@gmail.com
